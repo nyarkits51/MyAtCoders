@@ -1,0 +1,4 @@
+(executable
+ (public_name many_formulae)
+ (name main)
+ (libraries many_formulae batteries))
