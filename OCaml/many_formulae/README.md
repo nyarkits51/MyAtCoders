@@ -1,5 +1,5 @@
-PROJECT_ROOT_DIR: OCaml 
-PWD: OCaml/many_formulae 
+PROJECT_ROOT_DIR: OCaml <br>
+PWD: OCaml/many_formulae <br> 
 
 For build AtCoder solution code to create exe file. <br>
 $ dune build
