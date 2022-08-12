@@ -1,0 +1,2 @@
+(library
+ (name many_formulae))
