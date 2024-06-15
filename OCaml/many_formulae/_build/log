@@ -1,0 +1,22 @@
+# dune run
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/akitsutsujimoto/.cache/dune/db
+# Workspace root:
+# /Users/akitsutsujimoto/Documents/GitHub/MyAtCoders/OCaml/many_formulae
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/akitsutsujimoto/.opam/5.0.0/bin/ocamlc.opt -config > /var/folders/8x/_fdz8d2n6nngvzl_f1v3c8h00000gn/T/dune_5589e4_output
+# Promoting "_build/default/many_formulae.opam" to "many_formulae.opam"
+$ (cd _build/default && /Users/akitsutsujimoto/.opam/5.0.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I test/.many_formulae.eobjs/byte -no-alias-deps -opaque -o test/.many_formulae.eobjs/byte/dune__exe__Many_formulae.cmi -c -intf test/many_formulae.mli)
+$ (cd _build/default && /Users/akitsutsujimoto/.opam/5.0.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/.many_formulae.eobjs/byte -I test/.many_formulae.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -o test/.many_formulae.eobjs/native/dune__exe__Many_formulae.cmx -c -impl test/many_formulae.ml)
+$ (cd _build/default && /Users/akitsutsujimoto/.opam/5.0.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o test/many_formulae.exe test/.many_formulae.eobjs/native/dune__exe__Many_formulae.cmx)
+$ (cd _build/default/test && ./many_formulae.exe)
